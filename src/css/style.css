@@ -5,8 +5,29 @@
     box-shadow: 0px 1px 1px grey;
 }
 
+.bxshadow{
+	    box-shadow: 0px 1px 1px grey;
+}
+.bxshadow-top {
+				box-shadow: 0 -3px 3px -3px #BDBDBD;
+			}
+
 .bg-white-ns{
 		background-color: #FCFCFC;
+}
+
+
+.rounded {
+        -moz-border-radius:7px 7px 7px 7px;  // rounds corners for firefox
+        border-radius:7px 7px 7px 7px;  //rounds corners for other browsers
+        border:solid 1px #E85F28;
+        background-color:#7F7F7F;
+        padding:7px;
+				color:white;
+    }
+
+.bg-gray-ns{
+	background-color: #F9F9F9;
 }
 
 .bg-green-ns{
