@@ -12,6 +12,11 @@
 				box-shadow: 0 -3px 3px -3px #BDBDBD;
 			}
 
+.c-gray{
+	color:#D8DADB !important;
+	font-size:14px;
+}
+
 .bg-white-ns{
 		background-color: #FCFCFC;
 }
@@ -228,6 +233,14 @@
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
+	line-height: 26.4px;
+}
+.ops-2t {
+	color:#323933;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
 	line-height: 26.4px;
 }
 
