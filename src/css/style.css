@@ -42,6 +42,14 @@
 	border-top: 2px dashed #eee;
 }
 
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+	.cars-colored{
+		margin-left: 100px;
+	}
+ }
+
 .bg-azure{
 	background-color:#5A8FDC;
 }
@@ -173,6 +181,7 @@
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link a {
 	color:#007bff;
+	text-decoration: underline;
 }
 
 /* open sans font */
