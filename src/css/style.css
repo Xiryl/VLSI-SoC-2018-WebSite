@@ -5,6 +5,22 @@
     box-shadow: 0px 1px 1px grey;
 }
 
+.bg-white-ns{
+		background-color: #FCFCFC;
+}
+
+.bg-green-ns{
+	background-color: #55B89C;
+}
+
+.bg-viola-ng{
+	background-color: #915DB0;
+}
+
+.bg-orange-ng{
+	background-color:#E85F28; 
+}
+
 .bg-white-logo{
   background-color: #F9F9FA;
   box-shadow: 0px 1px 1px #BDBDBD;
@@ -19,10 +35,56 @@
 	margin: 15px;
 }
 
-/* MARGINS */
+.divider-dashed{
+	height:0px;
+	width:100%;
+	margin:20px 0 20px 0;
+	border-top: 2px dashed #eee;
+}
+
+.bg-azure{
+	background-color:#5A8FDC;
+}
+
+.scard{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+
+}
+
 .margin-slider{
   padding-top: 80px !important;
   padding-bottom: 80px !important;
+}
+
+.c-azure{
+	color:#477ED2 !important;
+}
+
+.c-white{
+	color:#F9F9FA !important;
+}
+
+.card-margin{
+	margin-top: 4px !important;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.mts-10{
+	margin-top: 90px;
+}
+
+.same-line{
+	display: inline;
 }
 
 .container-slider{
@@ -46,6 +108,10 @@
   -moz-opacity:1; /* same as above, edited thankx to @ Daniel_Lisik  */
 }
 
+.txtcenter{
+	text-align: center;
+}
+
 /* NAVBAR */
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link a {
@@ -58,6 +124,23 @@
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.ops-tt {
+		color:#5a5a5a;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 26.4px;
+}
+.ops-t {
+	color:#323933;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
 	line-height: 26.4px;
 }
 
