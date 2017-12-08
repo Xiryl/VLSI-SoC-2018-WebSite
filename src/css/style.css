@@ -18,7 +18,7 @@
 }
 
 .bg-orange-ng{
-	background-color:#E85F28; 
+	background-color:#E85F28;
 }
 
 .bg-white-logo{
@@ -99,17 +99,74 @@
   filter:alpha(opacity=40); /* browser fix*/
   -webkit-opacity:0.5; /*vendor prefixes for website browsers*/
   -moz-opacity:0.5; /* same as above, edited thankx to @ Daniel_Lisik  */
+	transition: 0.3s ease;
 }
 
 .opacityh:hover{
-  opacity:1; /* how much transparent you want image to be*/
   filter:alpha(opacity=40); /* browser fix*/
   -webkit-opacity:1; /*vendor prefixes for website browsers*/
   -moz-opacity:1; /* same as above, edited thankx to @ Daniel_Lisik  */
+	transition: 0.3s ease;
+	  opacity:1; /* how much transparent you want image to be*/
 }
 
 .txtcenter{
 	text-align: center;
+}
+
+/* COLORED-DIV */
+
+.colorme-azure{
+	background-color: #FCFCFC;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color:#5a5a5a !important;
+}
+.colorme-azure:hover{
+	background-color: #5A8FDC;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color: #FFFFFF !important;
+}
+
+
+.colorme-green{
+	background-color: #FCFCFC;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color:#5a5a5a !important;
+}
+.colorme-green:hover{
+	background-color: #55B89C;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color: #FFFFFF !important;
+}
+
+.colorme-viola{
+	background-color: #FCFCFC;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color:#5a5a5a !important;
+}
+.colorme-viola:hover{
+	background-color: #915DB0;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color: #FFFFFF !important;
+}
+
+.colorme-orange{
+	background-color: #FCFCFC;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color:#5a5a5a !important;
+}
+.colorme-orange:hover{
+	background-color: #E85F28;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	color: #FFFFFF !important;
 }
 
 /* NAVBAR */
@@ -128,7 +185,7 @@
 }
 
 .ops-tt {
-		color:#5a5a5a;
+
 	font-family: "Open Sans";
 	font-style: normal;
 	font-variant: normal;
