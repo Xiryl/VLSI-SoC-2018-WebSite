@@ -1,0 +1,77 @@
+/* GENERAL */
+
+.bg-white{
+	background-color: #FCFCFC;
+    box-shadow: 0px 1px 1px grey;
+}
+
+.bg-white-logo{
+  background-color: #F9F9FA;
+  box-shadow: 0px 1px 1px #BDBDBD;
+}
+
+.bg-slider{
+  background-color: #1C222B;
+}
+
+.img-mh{
+	max-height: 60px;
+	margin: 15px;
+}
+
+/* MARGINS */
+.margin-slider{
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.container-slider{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.opacityh{
+	opacity:0.5; /* how much transparent you want image to be*/
+  filter:alpha(opacity=40); /* browser fix*/
+  -webkit-opacity:0.5; /*vendor prefixes for website browsers*/
+  -moz-opacity:0.5; /* same as above, edited thankx to @ Daniel_Lisik  */
+}
+
+.opacityh:hover{
+  opacity:1; /* how much transparent you want image to be*/
+  filter:alpha(opacity=40); /* browser fix*/
+  -webkit-opacity:1; /*vendor prefixes for website browsers*/
+  -moz-opacity:1; /* same as above, edited thankx to @ Daniel_Lisik  */
+}
+
+/* NAVBAR */
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link a {
+	color:#007bff;
+}
+
+/* open sans font */
+.ops {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+/* PARTICLES */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.48;
+}
+/* PARTICLES */
+#particles-js canvas{
+	max-height:550px;
+		z-index: -1;
+}
