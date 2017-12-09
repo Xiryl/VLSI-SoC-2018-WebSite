@@ -107,8 +107,11 @@
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
 
+}
+
+.scard-border{
+	    border: 1px solid rgba(0,0,0,.125);
 }
 
 .margin-slider{
