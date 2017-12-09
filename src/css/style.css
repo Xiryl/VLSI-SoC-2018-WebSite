@@ -72,9 +72,20 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 	.cars-colored{
-		margin-left: 100px;
+		margin-left: 45px;
 	}
+
+	.align-left-mobile{
+		text-align: left !important;
+	}
+	.inline-mobile{
+		display:inline !important;
+		margin-left: 3px;
+	}
+
  }
+
+
 
 .bg-azure{
 	background-color:#5A8FDC;
