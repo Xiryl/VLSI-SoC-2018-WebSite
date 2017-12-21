@@ -15,98 +15,97 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
    </head>
    <body>
-      <!-- NAVBAR MENU -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-         <a class="navbar-brand" href="#">
-         <img src="img/vlsi-logo.png" width="90" height="40" alt="">
+     <!-- NAVBAR MENU -->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+
+
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item ">
+             <a class="nav-link ops" href="index.html">Home</a>
+           </li>
+
+           <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Orgnization
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="committee.html#orgcomit">Organizing Committee</a>
+                 <a class="dropdown-item" href="committee.html#progcomit">Program Committee</a>
+                 <a class="dropdown-item" href="committee.html#stcomit">Seering Committee</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Submission
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="submission.html#call4paper">Call For Special Sessions</a>
+                 <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
+                 <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
+                 <a class="dropdown-item" href="submission.html">Submission Site</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Special Sessions (TBA)
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Call For Paper</a>
+                <a class="dropdown-item" href="#">Author Guidelines</a>
+                <a class="dropdown-item" href="#">Camera Ready</a>
+                <a class="dropdown-item" href="#">Submission Site</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PHD School & Forum
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="phd.html#phdforum">PHD Forum</a>
+                   <a class="dropdown-item" href="phd.html#phdforum">PHD School</a>
+                </div>
+
+           </li>
+
+           <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Program
          </a>
-         <a class="navbar-brand" href="#">VLSI-SoC</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-               <li class="nav-item ">
-                  <a class="nav-link ops" href="index.html">Home</a>
-               </li>
-
-               <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Orgnization
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="committee.html#orgcomit">Organizing Committee</a>
-                     <a class="dropdown-item" href="committee.html#progcomit">Program Committee</a>
-                     <a class="dropdown-item" href="committee.html#stcomit">Seering Committee</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Submission
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="submission.html#call4paper">Call For Special Sessions</a>
-                     <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
-                     <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
-                     <a class="dropdown-item" href="submission.html">Submission Site</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Special Sessions
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="submission.html#call4paper">Call For Paper</a>
-                    <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
-                    <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
-                    <a class="dropdown-item" href="submission.html">Submission Site</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  PHD School & Forum
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <a class="dropdown-item" href="phd.html#phdforum">PHD Forum</a>
-                       <a class="dropdown-item" href="phd.html#phdforum">PHD School</a>
-
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Program
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="#">Keynotes</a>
-                     <a class="dropdown-item" href="#">Techincal Program</a>
-                     <a class="dropdown-item" href="#">Social Program</a>
-                  </div>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">Registration</a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Travel & Stay
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="travel.html#venue">Venue</a>
-                    <a class="dropdown-item" href="travel.html#travel">Travel</a>
-                    <a class="dropdown-item" href="travel.html#venue">Accomodation</a>
-                  </div>
-               </li>
-               <li class="nav-item ops active">
-                  <a class="nav-link" href="prevconference.html">Previus Conference</a>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">News</a>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">Contacts</a>
-               </li>
-            </ul>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#">Keynotes</a>
+           <a class="dropdown-item" href="#">Techincal Program</a>
+           <a class="dropdown-item" href="#">Social Program</a>
          </div>
-      </nav>
+       </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">Registration</a>
+           </li>
+           <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Travel & Stay
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="travel.html#venue">Venue</a>
+           <a class="dropdown-item" href="travel.html#travel">Travel</a>
+           <a class="dropdown-item" href="travel.html#venue">Accomodation</a>
+         </div>
+       </li>
+           <li class="nav-item ops active">
+             <a class="nav-link" href="prevconference.html">Previus Conference</a>
+           </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">News</a>
+           </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">Contacts</a>
+           </li>
+         </ul>
+       </div>
+     </nav>
       <!-- END NAVBAR-->
       <!-- SLIDER -->
       <div class="bg-slider">
@@ -156,22 +155,22 @@
       <div >
          <ul class="nav justify-content-center bg-white-logo">
             <li class="nav-item    " class="">
-               <a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid opacityh" /></a>
+               <a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://sites.ieee.org/indiacouncil/about-ieee/chapters/ceda/" ><img src="img/CEDA_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://sites.ieee.org/indiacouncil/about-ieee/chapters/ceda/" ><img src="img/CEDA_r.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://www.sigda.org/phdforum" ><img src="img/SIGDA_R.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://www.sigda.org/phdforum" ><img src="img/SIGDA_R.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://www.cscan.org/ifip/" ><img src="img/IFIP_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://www.cscan.org/ifip/" ><img src="img/IFIP_r.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid opacityh" /></a>
+               <a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid   " /></a>
             </li>
          </ul>
       </div>

@@ -15,98 +15,98 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
    </head>
    <body>
-      <!-- NAVBAR MENU -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-         <a class="navbar-brand" href="#">
-         <img src="img/vlsi-logo.png" width="90" height="40" alt="">
+     <!-- NAVBAR MENU -->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+
+
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link ops" href="index.html">Home</a>
+           </li>
+
+           <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Orgnization
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="committee.html#orgcomit">Organizing Committee</a>
+                 <a class="dropdown-item" href="committee.html#progcomit">Program Committee</a>
+                 <a class="dropdown-item" href="committee.html#stcomit">Seering Committee</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Submission
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="submission.html#call4paper">Call For Special Sessions</a>
+                 <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
+                 <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
+                 <a class="dropdown-item" href="submission.html">Submission Site</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Special Sessions (TBA)
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Call For Paper</a>
+                <a class="dropdown-item" href="#">Author Guidelines</a>
+                <a class="dropdown-item" href="#">Camera Ready</a>
+                <a class="dropdown-item" href="#">Submission Site</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PHD School & Forum
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="phd.html#phdforum">PHD Forum</a>
+                   <a class="dropdown-item" href="phd.html#phdforum">PHD School</a>
+                </div>
+
+           </li>
+
+           <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Program
          </a>
-         <a class="navbar-brand" href="#">VLSI-SoC</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-               <li class="nav-item ">
-                  <a class="nav-link ops" href="index.html">Home</a>
-               </li>
-
-               <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Orgnization
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="committee.html#orgcomit">Organizing Committee</a>
-                     <a class="dropdown-item" href="committee.html#progcomit">Program Committee</a>
-                     <a class="dropdown-item" href="committee.html#stcomit">Seering Committee</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown active">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Submission
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="submission.html#call4paper">Call For Special Sessions</a>
-                     <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
-                     <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
-                     <a class="dropdown-item" href="submission.html">Submission Site</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Special Sessions
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="submission.html#call4paper">Call For Paper</a>
-                    <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
-                    <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
-                    <a class="dropdown-item" href="submission.html">Submission Site</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  PHD School & Forum
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <a class="dropdown-item" href="phd.html#phdforum">PHD Forum</a>
-                       <a class="dropdown-item" href="phd.html#phdforum">PHD School</a>
-
-                  </div>
-               </li>               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Program
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="#">Keynotes</a>
-                     <a class="dropdown-item" href="#">Techincal Program</a>
-                     <a class="dropdown-item" href="#">Social Program</a>
-                  </div>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">Registration</a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Travel & Stay
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="travel.html#venue">Venue</a>
-                    <a class="dropdown-item" href="travel.html#travel">Travel</a>
-                    <a class="dropdown-item" href="travel.html#venue">Accomodation</a>
-                  </div>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="prevconference.html">Previus Conference</a>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">News</a>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">Contacts</a>
-               </li>
-            </ul>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#">Keynotes</a>
+           <a class="dropdown-item" href="#">Techincal Program</a>
+           <a class="dropdown-item" href="#">Social Program</a>
          </div>
-      </nav>
-      <!-- END NAVBAR-->
+       </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">Registration</a>
+           </li>
+           <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Travel & Stay
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="travel.html#venue">Venue</a>
+ 					<a class="dropdown-item" href="travel.html#travel">Travel</a>
+ 					<a class="dropdown-item" href="travel.html#venue">Accomodation</a>
+ 					<a class="dropdown-item" href="travel.html#tinfo">Touristic Information</a>
+         </div>
+       </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="prevconference.html">Previus Conference</a>
+           </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">News</a>
+           </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">Contacts</a>
+           </li>
+         </ul>
+       </div>
+     </nav>
       <!-- SLIDER -->
       <div class="bg-slider">
          <!-- particles.js container -->
@@ -155,22 +155,22 @@
       <div>
          <ul class="nav justify-content-center bg-white-logo">
             <li class="nav-item    " class="">
-               <a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid opacityh" /></a>
+               <a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://sites.ieee.org/indiacouncil/about-ieee/chapters/ceda/" ><img src="img/CEDA_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://sites.ieee.org/indiacouncil/about-ieee/chapters/ceda/" ><img src="img/CEDA_r.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://www.sigda.org/phdforum" ><img src="img/SIGDA_R.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://www.sigda.org/phdforum" ><img src="img/SIGDA_R.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://www.cscan.org/ifip/" ><img src="img/IFIP_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://www.cscan.org/ifip/" ><img src="img/IFIP_r.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid opacityh" /></a>
+               <a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid   " /></a>
             </li>
          </ul>
       </div>
@@ -293,15 +293,8 @@
                   <p class="ops c-azure inline-mobile"><b>INSTRUCTIONS FOR ACCEPTED PAPERS</b></p>
                </div>
                <div class="col-md-8"style="text-align:left;border-left: solid 1px #477ED2">
-                  <p class="ops-2t"><b>Important Notes:</b><br/>
-                     -In order to have your paper published in the conference proceedings and in IEEE Xplore, papers must be submitted in Xplore-compatible PDF format by 27 July 2017.
-                     <br/> -For your paper to be included in the proceedings, at least one author of your paper must register on or before 10 August 2017.
-                     <br/> -Please be aware that the IEEE No Show Policy applies to the conference and as such IEEE reserves the right to exclude a paper from distribution after the conference (e.g. removal from IEEE Xplore) if the paper is not presented at the conference.
-                  </p>
-                  <p class="ops-2t"><b>Please be aware of the following steps for submitting a paper:</b><br/>
-                     -The length of the paper (for both oral and poster presentation) is limited to six pages (single-spaced, two columns, 10pt font), however an extra two pages (for a total of up to eight pages) can be purchased at an additional charge of €50 per page. The extra page charges must be paid during the author registration process.
-                     <br/> -Paper submissions should follow the IEEE proceeding specifications as per the link below. <a class="a-no" href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">http://www.ieee.org/conferences_events/conferences/publishing/templates.html</a>
-                  </p>
+                  <p class="ops-2t"><b>TBA</b><br/>
+                    </p>
                </div>
             </div>
             <br/><br/>
@@ -312,65 +305,7 @@
          <div class="justify-content-center" id="cameraready">
             <h3 id="committee" class="ops-tt txtcenter " >CAMERA-READY SUBMISSION</h3>
             <br />
-            <p class="ops-tt txtcenter c-azure    "><b>Important Steps for Completing Your Camera-ready Submission</b></p>
-            <p class="ops-tt    " style="text-align:justify">For VLSI-SoC 2017, the proceedings will be published in IEEE Xplore with IEEE holding the copyright. All final manuscripts must be submitted in an electronic format which conforms to IEEE Templates AND is compliant with IEEE eXpress. To submit your camera-ready paper, please complete the following important steps:</p>
-            <br/>    <br/>
-            <i class="fa fa-angle-double-right same-line c-orange" aria-hidden="true"></i>
-            <h5 class="ops     c-orange same-line"><b>Step One</b>: Complete Your IEEE Copyright Form</h5>
-            <p class="ops-tt    " style="text-align:justify">For each paper, an IEEE copyright form must be completed, signed, and emailed to the publications co-chairs Jose Monteiro at <a class="a-no" href="mailto:jcm@inesc-id.pt">jcm@inesc-id.pt</a> and Jerald Yoo at <a class="a-no" href="mailto:jyoo@nus.edu.sg">jyoo@nus.edu.sg</a>.</p>
-            <br/>
-
-            <i class="fa fa-angle-double-right same-line c-orange" aria-hidden="true"></i>
-            <h5 class="ops     c-orange same-line"><b>Step Two</b>: Add the IEEE Copyright Notice to Your Manuscript</h5>
-            <p class="ops-tt    " style="text-align:justify">The same <a class="a-no" href="#">IEEE templates</a> can be used for the final submissions but before creating your PDF file, please add the IEEE copyright notice to the bottom left corner of the first page of your manuscript according to the following rules:</p>
-            <ul>
-               <li>
-                  <p class="ops-tt">For papers in which all authors are employed by the US government, the copyright notice is: <b>U.S. Government work not protected by U.S. copyright</b></p>
-               </li>
-               <li>
-                  <p class="ops-tt">For papers in which all authors are employed by a Crown government (UK, Canada, and Australia), the copyright notice is: <b>978-1-5386-2880-5/17/$31.00 ©2017 Crown</b></p>
-               </li>
-               <li>
-                  <p class="ops-tt">For papers in which all authors are employed by the European Union, the copyright notice is: <b>978-1-5386-2880-5/17/$31.00 ©2017 European Union </b></p>
-               </li>
-               <li>
-                  <p class="ops-tt">For all other papers, the copyright notice is: <b>978-1-5386-2880-5/17/$31.00 ©2017 IEEE</b></p>
-               </li>
-            </ul>
-            <br/>
-            <i class="fa fa-angle-double-right same-line c-orange" aria-hidden="true"></i>
-            <h5 class="ops     c-orange same-line"><b>Step Three</b>: Revise and Thoroughly Proofread your Manuscript to Confirm It Will Require No Further Revision</h5>
-            <p class="ops-tt    " style="text-align:justify">The maximum page limit of six pages will be strictly enforced.</p>
-            <br/>
-
-            <i class="fa fa-angle-double-right same-line c-orange" aria-hidden="true"></i>
-            <h5 class="ops     c-orange same-line"><b>Step Four</b>: Generate the Final PDF File and Verify IEEE Xplore Compatibility</h5>
-            <p class="ops-tt    " style="text-align:justify">To verify the IEEE Xplore PDF compatibility of your final manuscript, log in to the <a class="a-no" href="#">IEEE PDF eXpressTM</a> site. First-time users should do the following:</p>
-            <ul>
-               <li>
-                  <p class="ops-tt">Select the New Users – <a class="a-no" href="#">Click Here link</a>.</p>
-               </li>
-               <li>
-                  <p class="ops-tt">Enter the following: <br/> -41831X for the VLSI-SoC 2017 Conference ID <br/> -Your email address <br /> -A password
-                  </p>
-               </li>
-               <li>
-                  <p class="ops-tt">Continue to enter information as prompted.</p>
-               </li>
-            </ul>
-            <p class="ops-tt     ">An online confirmation will be displayed and an email confirmation will be sent verifying your account setup.</p>
-            <p class="ops-tt    ">      Previous users of PDF eXpress need to follow the above steps, but should enter the same password that was used for previous conferences. Verify that your contact information is still valid.</p>
-            <p class="ops-tt"> For questions about PDF eXpress: Please visit<a class="a-no" href="#"> Publications Support Center</a> .</p>
-            <br/>
-
-            <i class="fa fa-angle-double-right same-line c-orange" aria-hidden="true"></i>
-            <h5 class="ops     c-orange same-line"><b>Step Five</b>: Upload Your Clean PDF File on EasyChair</h5>
-            <p class="ops-tt    " style="text-align:justify">A proceedings submission link on <a class="a-no" href="#">EasyChair</a> has been created for each accepted paper. Please use it to upload your camera-ready manuscript. The upload deadline is July 27, 2017.</p>
-            <br/>
-            <i class="fa fa-angle-double-right same-line c-orange" aria-hidden="true"></i>
-            <h5 class="ops c-orange same-line"><b>Step Six</b>: Register as Author</h5>
-            <p class="ops-tt" style="text-align:justify">To appear in IEEE Xplore, each accepted paper has to be covered by at least one full author registration. Please visit <a class="a-no" href="#">Registration</a>. Author’s registration deadline is August 15, 2017.</p>
-    <br/>    <br/>
+            <p class="ops-tt txtcenter c-azure    "><b>TBA</b></p>
        </div>
       </div>
       <footer class="footer bg-footer" style="padding-top:80px">

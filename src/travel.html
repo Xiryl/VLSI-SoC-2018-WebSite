@@ -15,98 +15,97 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
    </head>
    <body>
-      <!-- NAVBAR MENU -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-         <a class="navbar-brand" href="#">
-         <img src="img/vlsi-logo.png" width="90" height="40" alt="">
+     <!-- NAVBAR MENU -->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+
+
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link ops" href="index.html">Home</a>
+           </li>
+
+           <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Orgnization
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="committee.html#orgcomit">Organizing Committee</a>
+                 <a class="dropdown-item" href="committee.html#progcomit">Program Committee</a>
+                 <a class="dropdown-item" href="committee.html#stcomit">Seering Committee</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Submission
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="submission.html#call4paper">Call For Special Sessions</a>
+                 <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
+                 <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
+                 <a class="dropdown-item" href="submission.html">Submission Site</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Special Sessions (TBA)
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Call For Paper</a>
+                <a class="dropdown-item" href="#">Author Guidelines</a>
+                <a class="dropdown-item" href="#">Camera Ready</a>
+                <a class="dropdown-item" href="#">Submission Site</a>
+              </div>
+           </li>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PHD School & Forum
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="phd.html#phdforum">PHD Forum</a>
+                   <a class="dropdown-item" href="phd.html#phdforum">PHD School</a>
+                </div>
+
+           </li>
+
+           <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Program
          </a>
-         <a class="navbar-brand" href="#">VLSI-SoC</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-               <li class="nav-item ">
-                  <a class="nav-link ops" href="index.html">Home</a>
-               </li>
-
-               <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Orgnization
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="committee.html#orgcomit">Organizing Committee</a>
-                     <a class="dropdown-item" href="committee.html#progcomit">Program Committee</a>
-                     <a class="dropdown-item" href="committee.html#stcomit">Seering Committee</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Submission
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="submission.html#call4paper">Call For Special Sessions</a>
-                     <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
-                     <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
-                     <a class="dropdown-item" href="submission.html">Submission Site</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Special Sessions
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="submission.html#call4paper">Call For Paper</a>
-                    <a class="dropdown-item" href="submission.html#authorguide">Author Guidelines</a>
-                    <a class="dropdown-item" href="submission.html#cameraready">Camera Ready</a>
-                    <a class="dropdown-item" href="submission.html">Submission Site</a>
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  PHD School & Forum
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <a class="dropdown-item" href="phd.html#phdforum">PHD Forum</a>
-                       <a class="dropdown-item" href="phd.html#phdforum">PHD School</a>
-
-                  </div>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Program
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="#">Keynotes</a>
-                     <a class="dropdown-item" href="#">Techincal Program</a>
-                     <a class="dropdown-item" href="#">Social Program</a>
-                  </div>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">Registration</a>
-               </li>
-               <li class="nav-item dropdown active">
-                  <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Travel & Stay
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="travel.html#venue">Venue</a>
-                     <a class="dropdown-item" href="travel.html#travel">Travel</a>
-                     <a class="dropdown-item" href="travel.html#venue">Accomodation</a>
-                  </div>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="prevconference.html">Previus Conference</a>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">News</a>
-               </li>
-               <li class="nav-item ops">
-                  <a class="nav-link" href="#">Contacts</a>
-               </li>
-            </ul>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#">Keynotes</a>
+           <a class="dropdown-item" href="#">Techincal Program</a>
+           <a class="dropdown-item" href="#">Social Program</a>
          </div>
-      </nav>
+       </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">Registration</a>
+           </li>
+           <li class="nav-item dropdown active">
+         <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Travel & Stay
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="travel.html#venue">Venue</a>
+           <a class="dropdown-item" href="travel.html#travel">Travel</a>
+           <a class="dropdown-item" href="travel.html#venue">Accomodation</a>
+         </div>
+       </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="prevconference.html">Previus Conference</a>
+           </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">News</a>
+           </li>
+           <li class="nav-item ops">
+             <a class="nav-link" href="#">Contacts</a>
+           </li>
+         </ul>
+       </div>
+     </nav>
       <!-- END NAVBAR-->
       <!-- SLIDER -->
       <div class="bg-slider">
@@ -156,22 +155,22 @@
       <div>
          <ul class="nav justify-content-center bg-white-logo">
             <li class="nav-item    " class="">
-               <a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid opacityh" /></a>
+               <a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://sites.ieee.org/indiacouncil/about-ieee/chapters/ceda/" ><img src="img/CEDA_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://sites.ieee.org/indiacouncil/about-ieee/chapters/ceda/" ><img src="img/CEDA_r.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://www.sigda.org/phdforum" ><img src="img/SIGDA_R.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://www.sigda.org/phdforum" ><img src="img/SIGDA_R.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="http://www.cscan.org/ifip/" ><img src="img/IFIP_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a href="http://www.cscan.org/ifip/" ><img src="img/IFIP_r.png" class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid opacityh" /></a>
+               <a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid   " /></a>
             </li>
             <li class="nav-item    ">
-               <a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid opacityh" /></a>
+               <a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid   " /></a>
             </li>
          </ul>
       </div>
@@ -224,7 +223,7 @@ Viale del Piave, 5 <br/> 37135 Verona VR</b></p>
 <br/>  <br/>
 <div class="row col-md-12 justify-content-center">
 <div class="col-md-3 cars-colored wow fadeInUp">
-<a  href="https://www.google.it/maps/dir/Arena+di+Verona,+Piazza+Bra,+Verona,+VR/Roseo+Hotel+Leon+d'Oro,+Viale+del+Piave,+5,+37135+Verona+VR/@45.4291087,10.9818442,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x477f5f4675b6a4fb:0x972d445bd29ff3f5!2m2!1d10.9943574!2d45.4389958!1m5!1m1!1s0x477f5f68de57b587:0x96ca4959469d85fb!2m2!1d10.9872676!2d45.4278772" class="scard colorme-green a-no scard-border" style="display:block;">
+<a  href="https://www.google.it/maps/dir/Aeroporto+'Valerio+Catullò+di+Verona+Villafranca+SP+A.,+Caselle,+VR/Roseo+Hotel+Leon+d'Oro,+Viale+del+Piave,+5,+37135+Verona+VR/@45.4159472,10.9211945,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x477f5f3f64bc5d4b:0x3b4cc3ee18227c2c!2m2!1d10.8901406!2d45.4000011!1m5!1m1!1s0x477f5f68de57b587:0x96ca4959469d85fb!2m2!1d10.9872676!2d45.4278772!3e0" class="scard colorme-green a-no scard-border" style="display:block;">
 <div class="text-white " style="max-width: 15rem;">
 <div class="card-body colorme-green txtcenter">
 <div style="font-size:2em;">
@@ -238,7 +237,7 @@ Aeroporto <br/> Catullo Verona</b></p>
 </div>
 
 <div class="col-md-3 cars-colored wow fadeInUp">
-<a  href="https://www.google.it/maps/dir/Orio+al+Serio,+BG/Roseo+Hotel+Leon+d'Oro,+Viale+del+Piave,+5,+37135+Verona+VR/@45.543899,10.0032848,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x4781505079e1868b:0xbe8ffa43d88f0b4b!2m2!1d9.6889593!2d45.6739099!1m5!1m1!1s0x477f5f68de57b587:0x96ca4959469d85fb!2m2!1d10.9872676!2d45.4278772" class="scard colorme-green a-no scard-border" style="display:block;">
+<a  href="https://www.google.it/maps/dir/Verona+Porta+Nuova,+Piazzale+XXV+Aprile,+Verona,+VR/Roseo+Hotel+Leon+d'Oro,+Viale+del+Piave,+5,+37135+Verona+VR/@45.4247498,10.9828013,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x477f5f664a2f09fd:0x558f7661f12a33b9!2m2!1d10.9823731!2d45.4291016!1m5!1m1!1s0x477f5f68de57b587:0x96ca4959469d85fb!2m2!1d10.9872676!2d45.4278772!3e0" style="display:block;">
 <div class="text-white " style="max-width: 15rem;">
 <div class="card-body colorme-green txtcenter">
 <div style="font-size:2em;">
@@ -262,7 +261,7 @@ Stazione Ferroviaria <br/> Verona Porta Nuova</b></p>
 
 
 
-   <div class="bxshadow-top" style="background-color:#f1f1f1">
+   <div class="bxshadow-top" style="background-color:#fff">
          <div class="container " style="padding-top:80px">
 <div class="justify-content-center txtcenter" id="accomodation">
   <h2 class="ops-tt txtcenter  " >ACCOMODATION</h2>
@@ -270,40 +269,188 @@ Stazione Ferroviaria <br/> Verona Porta Nuova</b></p>
   <p class="ops-t txtcenter same-line"> The conference is taking place at the <a style="a-no ops-t" href="http://www.roseohotelleondoro.com/it/home">Roseo Hotel Leon d'Oro</a>, Veorna, Italy. Otherwise we suggest you theese hotels:</p>
 <br/>  <br/>
 <div class="row col-md-12 justify-content-center">
-<div class="col-md-3 cars-colored wow fadeInUp">
-<a  href="https://www.google.it/maps/dir/Arena+di+Verona,+Piazza+Bra,+Verona,+VR/Roseo+Hotel+Leon+d'Oro,+Viale+del+Piave,+5,+37135+Verona+VR/@45.4291087,10.9818442,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x477f5f4675b6a4fb:0x972d445bd29ff3f5!2m2!1d10.9943574!2d45.4389958!1m5!1m1!1s0x477f5f68de57b587:0x96ca4959469d85fb!2m2!1d10.9872676!2d45.4278772" class="scard colorme-green a-no scard-border" style="display:block;">
-<div class="text-white " style="max-width: 15rem;">
-<div class="card-body colorme-green txtcenter">
-<div style="font-size:2em;">
-<i class="fa fa-plane" aria-hidden="true"></i>
-<p class="ops-tt txtcenter mts-10 card-margin" style="font-size:13px"><b>
-Aeroporto <br/> Catullo Verona</b></p>
-</div>
-</div>
-</div>
-</a>
-</div>
 
-<div class="col-md-3 cars-colored wow fadeInUp">
-<a  href="https://www.google.it/maps/dir/Orio+al+Serio,+BG/Roseo+Hotel+Leon+d'Oro,+Viale+del+Piave,+5,+37135+Verona+VR/@45.543899,10.0032848,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x4781505079e1868b:0xbe8ffa43d88f0b4b!2m2!1d9.6889593!2d45.6739099!1m5!1m1!1s0x477f5f68de57b587:0x96ca4959469d85fb!2m2!1d10.9872676!2d45.4278772" class="scard colorme-green a-no scard-border" style="display:block;">
-<div class="text-white " style="max-width: 15rem;">
-<div class="card-body colorme-green txtcenter">
-<div style="font-size:2em;">
-<i class="fa fa-train" aria-hidden="true"></i>
-<p class="ops-tt txtcenter mts-10 card-margin" style="font-size:13px"><b>
-Stazione Ferroviaria <br/> Verona Porta Nuova</b></p>
-</div>
-</div>
-</div>
-</a>
-</div>
 
+  <table class="table table-hover">
+    <thead>
+      <tr style="color:black">
+        <th scope="col"># of Stars</th>
+        <th scope="col">Name</th>
+        <th scope="col">Base Price</th>
+        <th scope="col">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr style="color:black">
+          <th scope="row" >4</th>
+        <td >Hotel Accademia</td>
+        <td>from € 180</td>
+        <td><a href="http://www.hotelaccademiaverona.it/">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+          <th scope="row" >4</th>
+        <td >Hotel Antica Porta Leona</td>
+        <td>from € 170</td>
+        <td><a href="http://anticaportaleona.com">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">4</th>
+        <td >Hotel Colomba d’oro</td>
+        <td>from € 125</td>
+        <td><a href="http://www.colombahotel.com/">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">4</th>
+        <td>Best Wenstern Hotel Firenze</td>
+        <td>from € 100</td>
+        <td><a href="http://www.verona-hotelfirenze.com">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">3</th>
+        <td>Hotel San Luca</td>
+        <td>from € 170</td>
+        <td><a href="http://www.sanlucahotel.com">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">3</th>
+        <td >Hotel Marco Polo</td>
+        <td>from € 140</td>
+        <td><a href="https://hotelmarcopoloverona.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">3</th>
+        <td >Hotel Milano & Spa</td>
+        <td>from € 130</td>
+        <td><a href="http://www.hotelmilano-vr.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">3</th>
+        <td>Hotel Mastino</td>
+        <td>from € 130</td>
+        <td><a href="http://hotelmastino.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">2</th>
+        <td>Hotel Scalzi</td>
+        <td>from € 100</td>
+        <td><a href="http://www.hotelscalzi.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">2</th>
+        <td>Hotel Al Castello</td>
+        <td>from € 90</td>
+        <td><a href="http://www.albergoalcastello.191.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">2</th>
+        <td>Hotel Torcolo</td>
+        <td>from € 85</td>
+        <td><a href="http://www.hoteltorcolo.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">B& B</th>
+        <td>B& B Verona Antica</td>
+        <td>from € 110</td>
+        <td><a href="http://www.veronantica.it/it/">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">B& B</th>
+        <td>B& B Due Terrazze </td>
+        <td>from € 70</td>
+        <td><a href="http://2terrazze.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">B& B</th>
+        <td>B& B Cittadella</td>
+        <td>from € 60</td>
+        <td><a href="http://www.cittadellavr.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">B& B</th>
+        <td>B& B Piazza Bra</td>
+        <td>from € 50</td>
+        <td><a href="http://www.bedandbreakfastpiazzabra.it">link</a></td>
+      </tr>
+
+      <tr style="color:black">
+        <th scope="row">B& B</th>
+        <td>B& B Ponte Navi</td>
+        <td>from € 25</td>
+        <td><a href="http://www.bedandbreakfastpontenavi.com">link</a></td>
+      </tr>
+
+
+    </tbody>
+  </table>
 
 </div>
   </div>
   <br/>
 </div>
 </div>
+
+<div class="bxshadow-top" style="background-color:#e1e1e1">
+        <div class="container " style="padding-top:80px">
+<div class="justify-content-center txtcenter" id="tinfo">
+<h2 class="ops-tt txtcenter  " >TOURISTIC INFORMATION</h2>
+<br/>
+<p class="ops-t txtcenter same-line">You can view some touristic information by this links:</p>
+<br/>  <br/>
+<div class="row col-md-12 justify-content-center">
+<div class="col-md-3 cars-colored wow fadeInUp">
+<a  href="http://www.tourism.verona.it/it" class="scard colorme-green a-no scard-border" style="display:block;">
+<div class="text-white " style="max-width: 15rem;">
+<div class="card-body colorme-green txtcenter">
+<div style="font-size:2em;">
+<i class="fa fa-compass" aria-hidden="true"></i>
+<p class="ops-tt txtcenter mts-10 card-margin" style="font-size:13px"><b>
+Tourism <br/> Verona</b></p>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-md-3 cars-colored wow fadeInUp">
+<a  href="http://www.veronatouristoffice.it" style="display:block;">
+<div class="text-white " style="max-width: 15rem;">
+<div class="card-body colorme-green txtcenter">
+<div style="font-size:2em;">
+<i class="fa fa-compass" aria-hidden="true"></i>
+<p class="ops-tt txtcenter mts-10 card-margin" style="font-size:13px"><b>
+Tourism Office <br/> Verona</b></p>
+</div>
+</div>
+</div>
+</a>
+</div>
+
+
+</div>
+
+</div>
+<br/>
+</div>
+</div>
+
+
+
+
     </div>
   </div>
 
