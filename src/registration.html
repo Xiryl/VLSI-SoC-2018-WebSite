@@ -30,7 +30,7 @@
 
            <li class="nav-item dropdown ">
               <a class="nav-link dropdown-toggle ops" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Organizing
+              Organization
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                  <a class="dropdown-item" href="committee.html#orgcomit">Organizing Committee</a>
@@ -54,10 +54,10 @@
               Special Sessions
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Call For Special Sessions</a>
-                <a class="dropdown-item" href="#">Author Guidelines</a>
-                <a class="dropdown-item" href="#">Camera Ready</a>
-                <a class="dropdown-item" href="#">Submission Site</a>
+                <a class="dropdown-item" href="specialsession.html">Call For Special Sessions</a>
+                <a class="dropdown-item" href="specialsession.html">Author Guidelines</a>
+                <a class="dropdown-item" href="specialsession.html">Camera Ready</a>
+                <a class="dropdown-item" href="specialsession.html">Submission Site</a>
               </div>
            </li>
            <li class="nav-item dropdown">
@@ -115,16 +115,18 @@
   			<!-- SLIDER CONTAINER -->
   			<div class="container">
   				<br/>		<br/>	<br/>		<br/>
-          <div class="row col-md-12  txtcenter">
+
+  				<div class="row col-md-12  txtcenter">
 
   					<div class=" col-md-5 txtcenter">
   						<img src="img/vlsi-logo.png" class="img-fluid" style="max-height:90px"/>
+  						<h4 class="ops-tt txtcenter mts-10 card-margin c-white">VLSI-SOC 2018</h4>
   					</div>
 
-            <div class=" col-md-7" style="text-align:center !important">
-  						<h4 class="ops-tt txtcenter mts-10 card-margin c-white"> <br/><b>26th IFIP/IEEE</b> International Conference on <b>Very Large Scale Integration</b> VLSI-Soc 2018</h4>
-  					</div>
-
+  					<div class=" col-md-7" style="text-align:center !important">
+  						<h4 class="ops-tt txtcenter mts-10 card-margin c-white"><br/><b>26th IFIP/IEEE</b> International Conference on <b>Very Large Scale Integration</b> <br/></h4>
+  						<h5 class="ops-tt txtcenter mts-10 card-margin c-white"><br/>Verona, 8-10 October  Roseo Hotel Leon d’Oro	</h5>
+  				</div>
   				</div>
 
   				<div id="carouselExampleIndicators" class="carousel slide margin-slider" data-ride="carousel">
@@ -133,10 +135,11 @@
   						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
   					</ol>
   					<div class="carousel-inner" role="listbox" style="max-height:400px">
   						<div class="carousel-item active">
-  							<img class="d-block img-fluid" src="img/panoramaVerona.jpg" alt="First slide">
+  							<img class="d-block img-fluid" src="img/arenaVerona.jpg" alt="Third slide">
   						</div>
   						<div class="carousel-caption d-none d-md-block">
   						</div>
@@ -144,11 +147,14 @@
   							<img class="d-block img-fluid" src="img/giulietta-verona.jpg" alt="Second slide">
   						</div>
               <div class="carousel-item">
-  							<img class="d-block img-fluid" src="img/arenaVerona.jpg" alt="Third slide">
+  							<img class="d-block img-fluid" src="img/panoramaVerona.jpg" alt="First slide">
   						</div>
-              <div class="carousel-item">
+  						<div class="carousel-item">
                 <img class="d-block img-fluid" src="img/pontePietra.jpg" alt="Third slide">
               </div>
+  						<div class="carousel-item">
+  							<img class="d-block img-fluid" src="img/cantina.jpg" alt="Third slide">
+  						</div>
   					</div>
   					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
   					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -159,35 +165,36 @@
   					<span class="sr-only">Next</span>
   					</a>
   				</div>
+
   			</div>
   			<!-- END SLIDER CONTAINER -->
   		</div>
-      <!-- END SLIDER-->
-      <!-- QUICK LOGO -->
-      <div>
-         <ul class="nav justify-content-center bg-white-logo">
-            <li class="nav-item    " class="">
-               <a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid   " /></a>
-            </li>
-            <li class="nav-item    ">
-               <a href="http://sites.ieee.org/indiacouncil/about-ieee/chapters/ceda/" ><img src="img/CEDA_r.png" class="img-mh img-fluid   " /></a>
-            </li>
-            <li class="nav-item    ">
-               <a href="http://www.sigda.org/phdforum" ><img src="img/SIGDA_R.png" class="img-mh img-fluid   " /></a>
-            </li>
-            <li class="nav-item    ">
-               <a href="http://www.cscan.org/ifip/" ><img src="img/IFIP_r.png" class="img-mh img-fluid   " /></a>
-            </li>
-            <li class="nav-item    ">
-               <a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid   " /></a>
-            </li>
-            <li class="nav-item    "  id="venue">
-               <a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid   " /></a>
-            </li>
-         </ul>
-      </div>
-      <!-- END QUICK LOGO -->
-      <!-- MAIN CONTENT -->
+  		<!-- END SLIDER-->
+  		<!-- QUICK LOGO -->
+  		<div>
+  			<ul class="nav justify-content-center bg-white-logo">
+  				<li class="nav-item wow fadeIn" class="">
+  					<a href="http://ieee-cas.org" >	<img src="img/CAS_r.png"  class="img-mh img-fluid" /></a>
+  				</li>
+  				<li class="nav-item wow fadeIn">
+  					<a href="http://www.iee-ceda.org" ><img src="img/CEDA_r.png" class="img-mh img-fluid" /></a>
+  				</li>
+  				<li class="nav-item wow fadeIn">
+  					<a href="http://www.sigda.org" ><img src="img/SIGDA_R.png" class="img-mh img-fluid" /></a>
+  				</li>
+  				<li class="nav-item wow fadeIn">
+  					<a href="http://www.ifip.org" ><img src="img/IFIP_r.png" class="img-mh img-fluid" /></a>
+  				</li>
+  				<li class="nav-item wow fadeIn">
+  					<a href="https://www.ieee.org/index.html" ><img src="img/IEEE_r.png"  class="img-mh img-fluid" /></a>
+  				</li>
+  				<li class="nav-item wow fadeIn">
+  					<a  href="http://www.univr.it/jsp/index.jsp" ><img src="img/univr_r.png" class="img-mh img-fluid" /></a>
+  				</li>
+  			</ul>
+  		</div>
+  		<!-- END QUICK LOGO -->
+  		<!-- MAIN CONTENT -->
       <div class="container ">
          <div class="justify-content-center txtcenter" >
             <h2 class="ops-tt txtcenter mts-10 " >REGISTRATION</h2>
@@ -206,13 +213,13 @@
                   <h5 class="ops-tt c-white">CONTACTS</h5>
                   <br/>
                   <i class="fa fa-user same-line c-white" aria-hidden="true"></i>
-                  <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> Gaziano Pravadelli</p>
-                  <br />
-                  <i class="fa fa-envelope same-line c-white" aria-hidden="true"></i>
-                  <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="mailto:graziano.pravadelli@univr.it">graziano.pravadelli@univr.it</a></p>
-                  <br />
-                  <i class="fa fa-phone same-line c-white" aria-hidden="true"></i>
-                  <p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="tel:+390452027081">(+39) 0452027081</a></p>
+                  <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> Graziano Pravadelli</p>
+      						<br />
+      						<i class="fa fa-envelope same-line c-white" aria-hidden="true"></i>
+      						<p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="mailto:graziano.pravadelli@univr.it">graziano.pravadelli@univr.it</a></p>
+      						<br />
+      						<i class="fa fa-phone same-line c-white" aria-hidden="true"></i>
+      						<p class="ops-2t c-gray same-line"><a class="ops-tt a-no c-gray" href="tel:+390452027081">(+39) 0458027081</a></p>
                   <br /><br />
                   <i class="fa fa-user same-line c-white" aria-hidden="true"></i>
                   <p class="ops-2t c-gray same-line" style="color:#F8CF5F !important;"> Todd Austin</p>
